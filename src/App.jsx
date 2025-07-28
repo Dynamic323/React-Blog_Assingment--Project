@@ -7,10 +7,10 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={ <EducationLanding />} />
-        <Route path="/lg" element={<Blog /> } />
+        <Route path="/" element={<Blog />  } />
       </Routes>
     </div>
+        // <Route path="/lg" element={} />
   );
 }
 
